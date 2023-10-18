@@ -1,0 +1,24 @@
+.FilterContainer {
+    text-align: left;
+    margin: 10px;
+  }
+  
+  .filterTitle {
+    margin-bottom: 10px;
+  }
+  
+  .filterCategory {
+    margin-bottom: 10px;
+  }
+  
+  .filterLabel {
+    margin-right: 10px;
+  }
+  
+  .filterSelect {
+    border: 1px black solid
+  }
+  
+  .filterButton {
+    border: 1px black solid
+  }

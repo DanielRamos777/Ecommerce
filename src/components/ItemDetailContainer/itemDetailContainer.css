@@ -1,0 +1,17 @@
+.ItemDetailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px black solid;
+    margin: 30px;
+    padding: 50px;
+    width: 400px;
+    margin: 10px auto; /* Agrega esta línea para centrar horizontalmente el contenedor */
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

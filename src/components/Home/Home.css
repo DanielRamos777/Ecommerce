@@ -1,0 +1,16 @@
+p{
+    text-align: center;
+}
+
+.home-container {
+    text-align: center;
+  }
+  
+  .paragraph-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .centered-paragraph {
+    text-align: center;
+  }

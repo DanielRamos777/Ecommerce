@@ -1,0 +1,36 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  overflow: hidden; /* Añade esta línea para ocultar cualquier contenido que se desborde */
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Cambia la altura al 100% para llenar todo el espacio */
+  object-fit: cover;
+}
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }

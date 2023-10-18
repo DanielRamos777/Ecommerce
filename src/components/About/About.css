@@ -1,0 +1,43 @@
+.streaming{
+    width: 30%;
+}
+.about-container {
+    text-align: center;
+    align-items: center;
+    width: 800px;
+    margin: 20px;
+}
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-heading {
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    margin-bottom: 20px;
+  }
+  
+  .streaming {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+    width: 80%; 
+  }
+
+  p{
+    text-align: justify;
+  }

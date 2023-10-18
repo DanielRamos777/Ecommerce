@@ -1,0 +1,33 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px black solid;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .form-label {
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .form-checkbox {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .form-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
