@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Contact.css';
 
 const ContactForm = () => {
@@ -11,14 +10,11 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes agregar la lógica para enviar los datos del formulario
     console.log('Nombre:', name);
     console.log('Teléfono:', phone);
     console.log('Correo:', email);
     console.log('Mensaje:', message);
     console.log('Acepto términos y condiciones:', termsAccepted);
-    // Puedes hacer una petición a un servidor, enviar un correo electrónico, etc.
-    // También puedes reiniciar los valores de los campos del formulario si lo deseas
     setName('');
     setPhone('');
     setEmail('');

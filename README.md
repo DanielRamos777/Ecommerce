@@ -1,8 +1,10 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Ecommerce
 
-Currently, two official plugins are available:
+Nota:
+- asyncMock esta en desuso
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Oscar Daniel Ramos Villalobos - Estudiante de Coderhouse del curso de JS React - Comisión 47200
+
+El proyecto (Ecommerce) Streaming, esta diseñada para vender entretenimiento en streaming es una parte esencial de la vida moderna. La capacidad de sumergirse en tus películas, series y programas favoritos en cualquier momento y en cualquier lugar es una experiencia que todos merecen. Es por eso que estamos aquí para ofrecerte una solución perfecta.
+

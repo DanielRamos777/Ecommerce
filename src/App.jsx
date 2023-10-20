@@ -1,5 +1,3 @@
-
-import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
@@ -11,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Checkout from './components/Checkout/Checkout';
 
 function App() {
   return (
@@ -24,6 +23,7 @@ function App() {
             <Route path='/category/:categoryId' element={<ItemListContainer greeting={'Productos por categoria'} />} />
             <Route path='/item/:itemId' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<Cart />} />
+            <Route path='/checkout' element={<Checkout />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<h1>404 NOT FOUND</h1>} />
